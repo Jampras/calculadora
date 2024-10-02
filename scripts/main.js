@@ -63,15 +63,6 @@ function Dividir() {
 
 }
 
-const buttonContainer = document.querySelector('.button-container');
-buttonContainer.classList.add('rotate');
-
-// Para pausar a rotação:
-buttonContainer.classList.remove('rotate');
-
-// Para reiniciar a rotação:
-buttonContainer.classList.add('rotate');
-
 // Associando funções aos botões
 document.getElementById("btnSomar").addEventListener("click", somar);
 document.getElementById("btnSubtrair").addEventListener("click", subtrair);
